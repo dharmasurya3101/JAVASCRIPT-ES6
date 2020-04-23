@@ -1,6 +1,4 @@
-//object literal features
 
-//method definition
 const phone = {
     ring(i){
         console.log("beep ".repeat(i));
@@ -8,7 +6,7 @@ const phone = {
 };
 phone.ring(2);
 
-//computed property keys
+
 const x = 'make';
 function g(){
     return 'ring';
